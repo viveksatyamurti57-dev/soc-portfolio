@@ -31,7 +31,7 @@ http
 Identified unencrypted HTTP requests/responses — readable in plaintext,
 confirming the traffic was not using TLS.
 
-![HTTP Traffic](http-traffic.png)
+![HTTP Traffic](http_traffic.png)
 
 ### 2. HTTPS / TLS Traffic
 Filter used:
@@ -41,7 +41,7 @@ tls
 Identified TLS handshake and encrypted application data, confirming the
 traffic was encrypted end-to-end (no readable plaintext content visible).
 
-![TLS Traffic](tls-traffic.png)
+![TLS Traffic](tls_traffic.png)
 
 ### 3. Port Scan Detection
 Simulated a port scan with:
@@ -60,7 +60,7 @@ ports from one source is the classic signature of a port scan — the
 reconnaissance phase an attacker uses to discover which services are
 open on a target before attempting exploitation.
 
-![Port Scan Pattern](port-scan.png)
+![Port Scan Pattern](port_scan.png)
 
 ## What I Learned
 
